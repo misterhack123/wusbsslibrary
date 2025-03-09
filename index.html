@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Grade 11A group1">
+    <title>ICT Assignment for Grade 11</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-menu">
+            <header>
+                <nav>
+                    <div class="logo">ABC Library</div>
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="nav-menu">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="#books" class="nav-link">About Us</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">Services</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </nav>
+    </header>
+
+    <main>
+        <div class="box-1">
+            <div class="right-sec">
+                <h1>Welcome here!</h1>
+                <img src="https://img.freepik.com/premium-photo/young-man-reading-book-flat-vector-illustration-isolated-white-background-generative-ai_804788-62134.jpg" alt="">
+            </div>
+            <div class="left-sec">
+                <h3>Hey User,</h3>
+                <p>
+                    Welcome to ABC Library, a paradise for book lovers! Explore our carefully curated collection, from timeless classics to bestsellers. Whether you're an avid reader or just starting out, we have something for everyone. Stay updated on new arrivals, recommendations, and events. Join our community and experience the magic of reading!
+                </p>
+               
+                
+                Happy reading, The ABC Library Team
+            </div>
+        </div>
+
+        <div class="box-2">
+            <h3 class="section-title">Grade 11 Books</h3>
+            <div class="books-grid">
+                <!-- Chemistry -->
+                <div class="book-card">
+                    <div class="book-image">
+                        <img src="https://i0.wp.com/selectacademy.edu.et/wp-content/uploads/2025/01/Chemistry-G-11.png?w=601&ssl=1" alt="Chemistry">
+                    </div>
+                    <h4 class="book-title">Chemistry</h4>
+                    <a href="https://fetena.net/books_asset/books_28/collection/grade%2011-chemistry_fetena_net_5883.pdf" class="book-btn">Read the Book</a>
+                </div>
+        
+                <!-- Biology -->
+                <div class="book-card">
+                    <div class="book-image">
+                        <img src="https://i0.wp.com/selectacademy.edu.et/wp-content/uploads/2025/01/Biology-Grade-11.png?w=594&ssl=1" alt="Biology">
+                    </div>
+                    <h4 class="book-title">Biology</h4>
+                    <a href="https://fetena.net/books_asset/books_28/collection/grade%2011-biology_fetena_net_c646.pdf" class="book-btn">Read the Book</a>
+                </div>
+        
+                <!-- Physics -->
+                <div class="book-card">
+                    <div class="book-image">
+                        <img src="https://i0.wp.com/selectacademy.edu.et/wp-content/uploads/2025/01/Physics-G-11.png?w=609&ssl=1" alt="Physics">
+                    </div>
+                    <h4 class="book-title">Physics</h4>
+                    <a href="https://fetena.net/books_asset/books_28/collection/grade%2011-physics_fetena_net_e906.pdf" class="book-btn">Read the Book</a>
+                </div>
+        
+                <!-- Mathematics -->
+                <div class="book-card">
+                    <div class="book-image">
+                        <img src="https://i0.wp.com/selectacademy.edu.et/wp-content/uploads/2025/01/math-g-11.png?w=616&ssl=1" alt="Mathematics">
+                    </div>
+                    <h4 class="book-title">Mathematics</h4>
+                    <a href="https://fetena.net/books_asset/books_28/collection/grade%2011-mathematics_fetena_net_67b9.pdf" class="book-btn">Read the Book</a>
+                </div>
+        
+                <!-- ICT -->
+                <div class="book-card">
+                    <div class="book-image">
+                        <img src="https://i0.wp.com/selectacademy.edu.et/wp-content/uploads/2025/01/IT-Grade-11-1.png?w=583&ssl=1" alt="ICT">
+                    </div>
+                    <h4 class="book-title">ICT</h4>
+                    <a href="https://fetena.net/books_asset/books_28/collection/grade%2011-ict_fetena_net_c954.pdf" class="book-btn">Read the Book</a>
+                </div>
+        
+                <!-- Agriculture -->
+                <div class="book-card">
+                    <div class="book-image">
+                        <img src="https://i0.wp.com/selectacademy.edu.et/wp-content/uploads/2025/01/Agriculture-Grade-11.png?w=597&ssl=1" alt="Agriculture">
+                    </div>
+                    <h4 class="book-title">Agriculture</h4>
+                    <a href="https://fetena.net/books_asset/books_28/collection/grade%2011-agriculture_fetena_net_48cc.pdf" class="book-btn">Read the Book</a>
+                </div>
+            </div>
+        </div>
+        
+        <style>
+                    <style>
+            /* Header and Navigation Styles */
+            :root {
+                --header-height: 70px;
+                --nav-bg: rgba(255, 255, 255, 0.95);
+                --nav-bg-dark: rgba(15, 23, 42, 0.95);
+                --accent-gradient: linear-gradient(45deg, #3498db, #2ecc71);
+                --menu-timing: 0.3s ease;
+            }
+
+            [data-theme="dark"] {
+                --nav-bg: var(--nav-bg-dark);
+            }
+
+            header {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                z-index: 1000;
+                background: var(--nav-bg);
+                backdrop-filter: blur(10px);
+                box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+                transition: all var(--menu-timing);
+            }
+
+            nav {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 0 1.5rem;
+                height: var(--header-height);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .logo {
+                font-size: 1.8rem;
+                font-weight: 700;
+                background: var(--accent-gradient);
+                -webkit-background-clip: text;
+                background-clip: text;
+                color: transparent;
+                animation: gradientFlow 3s ease infinite;
+                z-index: 1001;
+            }
+
+            .nav-menu {
+                display: flex;
+                gap: 2rem;
+                list-style: none;
+            }
+
+            .nav-item {
+                position: relative;
+            }
+
+            .nav-link {
+                color: var(--text-primary);
+                text-decoration: none;
+                font-weight: 500;
+                padding: 0.5rem 1rem;
+                transition: all 0.3s ease;
+                position: relative;
+            }
+
+            .nav-link::after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                width: 0;
+                height: 2px;
+                background: var(--accent-gradient);
+                transition: all 0.3s ease;
+                transform: translateX(-50%);
+            }
+
+            .nav-link:hover::after {
+                width: 100%;
+            }
+
+            /* Hamburger Menu */
+            .hamburger {
+                display: none;
+                cursor: pointer;
+                width: 30px;
+                height: 20px;
+                position: relative;
+                z-index: 1001;
+            }
+
+            .hamburger span {
+                display: block;
+                position: absolute;
+                height: 2px;
+                width: 100%;
+                background: var(--text-primary);
+                border-radius: 3px;
+                transition: all var(--menu-timing);
+            }
+
+            .hamburger span:nth-child(1) { top: 0; }
+            .hamburger span:nth-child(2) { top: 9px; }
+            .hamburger span:nth-child(3) { top: 18px; }
+
+            /* Mobile Navigation */
+            @media screen and (max-width: 768px) {
+                .hamburger {
+                    display: block;
+                }
+
+                .nav-menu {
+                    position: fixed;
+                    top: var(--header-height);
+                    right: -100%;
+                    width: 100%;
+                    height: calc(100vh - var(--header-height));
+                    background: var(--nav-bg);
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: flex-start;
+                    padding-top: 2rem;
+                    gap: 2rem;
+                    transition: all var(--menu-timing);
+                    backdrop-filter: blur(10px);
+                }
+
+                .nav-menu.active {
+                    right: 0;
+                }
+
+                .nav-item {
+                    opacity: 0;
+                    transform: translateX(50px);
+                    transition: all var(--menu-timing);
+                }
+
+                .nav-menu.active .nav-item {
+                    opacity: 1;
+                    transform: translateX(0);
+                }
+
+                /* Staggered animation for menu items */
+                .nav-menu.active .nav-item:nth-child(1) { transition-delay: 0.1s; }
+                .nav-menu.active .nav-item:nth-child(2) { transition-delay: 0.2s; }
+                .nav-menu.active .nav-item:nth-child(3) { transition-delay: 0.3s; }
+                .nav-menu.active .nav-item:nth-child(4) { transition-delay: 0.4s; }
+
+                /* Animated hamburger to X */
+                .hamburger.active span:nth-child(1) {
+                    top: 9px;
+                    transform: rotate(45deg);
+                }
+
+                .hamburger.active span:nth-child(2) {
+                    opacity: 0;
+                    transform: translateX(20px);
+                }
+
+                .hamburger.active span:nth-child(3) {
+                    top: 9px;
+                    transform: rotate(-45deg);
+                }
+
+                .nav-link {
+                    font-size: 1.2rem;
+                    padding: 1rem 2rem;
+                    width: 100%;
+                    text-align: center;
+                    display: block;
+                }
+
+                .nav-link::after {
+                    bottom: 0.5rem;
+                }
+            }
+
+            /* Animations */
+            @keyframes gradientFlow {
+                0% { filter: hue-rotate(0deg); }
+                100% { filter: hue-rotate(360deg); }
+            }
+
+            /* Header Scroll Effect */
+            header.scrolled {
+                background: var(--nav-bg);
+                box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+            }
+
+            /* Add this to your existing script section */
+           
+              
+        
+        </style>
+          
+           
+    </main>
+
+    <script>
+        
+                // Hamburger Menu Toggle
+                const hamburger = document.querySelector('.hamburger');
+                const navMenu = document.querySelector('.nav-menu');
+                const navLinks = document.querySelectorAll('.nav-link');
+
+                hamburger.addEventListener('click', () => {
+                    hamburger.classList.toggle('active');
+                    navMenu.classList.toggle('active');
+                });
+
+                // Close menu when clicking a link
+                navLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        hamburger.classList.remove('active');
+                        navMenu.classList.remove('active');
+                    });
+                });
+
+                // Header scroll effect
+                window.addEventListener('scroll', () => {
+                    const header = document.querySelector('header');
+                    if (window.scrollY > 50) {
+                        header.classList.add('scrolled');
+                    } else {
+                        header.classList.remove('scrolled');
+                    }
+                });
+        </script>
+   
+    <footer>
+        <p>&copy; 2023 ABC Library</p>
+        
+    </footer>
+</body>
+</html>
